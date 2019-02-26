@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "first_severless-executor",
+    "name": "first_severless",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "sdmh6l1bqb"
+  }
+}

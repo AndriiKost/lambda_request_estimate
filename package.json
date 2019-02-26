@@ -1,0 +1,23 @@
+{
+  "name": "first_severless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "claudia create --version dev --region us-east-1 --api-module api",
+    "release": "claudia set-version --version production",
+    "update": "claudia update"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "claudia": "^5.4.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.411.0",
+    "aws-serverless-express": "^3.3.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.15"
+  }
+}
